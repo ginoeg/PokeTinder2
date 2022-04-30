@@ -1,4 +1,4 @@
-package tecsup.edu.poketinder
+package tecsup.edu.poketinder.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
