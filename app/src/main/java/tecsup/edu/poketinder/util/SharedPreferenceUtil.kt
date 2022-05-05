@@ -36,7 +36,7 @@ class SharedPreferenceUtil {
         try {
             userFacebook = Gson().fromJson(jsonUserFacebook, User::class.java)
         } catch (e: Exception){
-            Log.d( tag: "Corcool", e.message.toString())
+            Log.d("Codercool",e.message.toString())
         }
 
         return userFacebook
