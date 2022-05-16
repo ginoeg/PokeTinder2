@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import tecsup.edu.poketinder.R
-import tecsup.edu.poketinder.data.Onboarding
+import tecsup.edu.poketinder.data.model.Onboarding
 import tecsup.edu.poketinder.databinding.ItemOnboardingBinding
 import tecsup.edu.poketinder.util.inflate
 

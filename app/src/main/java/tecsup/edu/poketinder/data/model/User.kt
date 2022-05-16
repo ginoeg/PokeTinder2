@@ -1,4 +1,4 @@
-package tecsup.edu.poketinder.data
+package tecsup.edu.poketinder.data.model
 
 import java.io.Serializable
 

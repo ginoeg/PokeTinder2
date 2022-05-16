@@ -1,6 +1,6 @@
 package tecsup.edu.poketinder.util
 
-import tecsup.edu.poketinder.data.Onboarding
+import tecsup.edu.poketinder.data.model.Onboarding
 
 class Mock {
 

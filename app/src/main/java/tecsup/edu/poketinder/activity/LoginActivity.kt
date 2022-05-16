@@ -4,9 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import tecsup.edu.poketinder.data.User
+import tecsup.edu.poketinder.data.model.User
 import tecsup.edu.poketinder.databinding.ActivityLoginBinding
-import tecsup.edu.poketinder.databinding.ActivityMainBinding.inflate
 import tecsup.edu.poketinder.util.SharedPreferenceUtil
 
 class LoginActivity: BaseActivity<ActivityLoginBinding>(ActivityLoginBinding::inflate) {
