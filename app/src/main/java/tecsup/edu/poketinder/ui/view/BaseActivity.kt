@@ -1,7 +1,6 @@
-package tecsup.edu.poketinder.activity
+package tecsup.edu.poketinder.ui.view
 
 import android.os.Bundle
-import android.view.AbsSavedState
 import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewbinding.ViewBinding

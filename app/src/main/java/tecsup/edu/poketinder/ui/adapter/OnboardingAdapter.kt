@@ -1,4 +1,4 @@
-package tecsup.edu.poketinder.adapter
+package tecsup.edu.poketinder.ui.adapter
 
 import android.view.View
 import android.view.ViewGroup

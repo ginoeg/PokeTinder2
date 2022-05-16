@@ -1,4 +1,4 @@
-package tecsup.edu.poketinder.util
+package tecsup.edu.poketinder.data
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -51,8 +51,5 @@ class SharedPreferenceUtil {
 
     fun getIntroShow(): Boolean = sharedPreference
         .getBoolean(INTRO, false)
-
-
-
 
 }
