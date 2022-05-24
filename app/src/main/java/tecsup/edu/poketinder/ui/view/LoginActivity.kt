@@ -3,13 +3,10 @@ package tecsup.edu.poketinder.ui.view
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
-import tecsup.edu.poketinder.data.model.User
 import tecsup.edu.poketinder.databinding.ActivityLoginBinding
-import tecsup.edu.poketinder.data.SharedPreferenceUtil
-import tecsup.edu.poketinder.viewmodel.LoginViewModel
+import tecsup.edu.poketinder.ui.viewmodel.LoginViewModel
 
-class LoginActivity: BaseActivity<ActivityLoginBinding>(ActivityLoginBinding::inflate) {
+class LoginActivity : BaseActivity<ActivityLoginBinding>(ActivityLoginBinding::inflate){
 
     //private lateinit var sharedPreferenceUtil: SharedPreferenceUtil
     private lateinit var loginViewModel: LoginViewModel
@@ -50,4 +47,5 @@ class LoginActivity: BaseActivity<ActivityLoginBinding>(ActivityLoginBinding::in
         loginViewModel.validateInputs(binding.edtEmail.text.toString(),binding.edtPassword.text.toString())
 
     }
+
 }

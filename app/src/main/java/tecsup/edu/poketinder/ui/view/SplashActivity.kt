@@ -1,13 +1,13 @@
 package tecsup.edu.poketinder.ui.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
 import android.os.Handler
 import android.os.Looper
-import tecsup.edu.poketinder.data.SharedPreferenceUtil
+import tecsup.edu.poketinder.util.SharedPreferenceUtil
+import tecsup.edu.poketinder.databinding.ActivitySplashBinding
 
-class SplashActivity : AppCompatActivity() {
+class SplashActivity : BaseActivity<ActivitySplashBinding>(ActivitySplashBinding::inflate) {
 
     private lateinit var sharedPreferenceUtil: SharedPreferenceUtil
 
@@ -19,17 +19,19 @@ class SplashActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed(
             {
-                //Evaluar si mostrar o no
+                //Evaluar si mostrar intro o no
                 val isIntroAvailable = sharedPreferenceUtil.getIntroShow()
-                if (!isIntroAvailable) {
+                val isUserAvailable = sharedPreferenceUtil.getUser()
+                if(!isIntroAvailable && (isUserAvailable==null)) {
                     startActivity(Intent(this, OnboardingActivity::class.java))
-                } else {
+                }else if(isIntroAvailable && (isUserAvailable==null)) {
+                    startActivity(Intent(this, OnboardingActivity::class.java))
+                }else {
                     startActivity(Intent(this, LoginActivity::class.java))
                 }
                 finish()
             },
             3000 //value in milliseconds
         )
-
     }
 }

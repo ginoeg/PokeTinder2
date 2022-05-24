@@ -1,12 +1,11 @@
-package tecsup.edu.poketinder.viewmodel
+package tecsup.edu.poketinder.ui.viewmodel
 
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
-import tecsup.edu.poketinder.data.SharedPreferenceUtil
+import tecsup.edu.poketinder.util.SharedPreferenceUtil
 import tecsup.edu.poketinder.data.model.User
 
 class RegisterViewModel(private val context: Context) {
-
     private lateinit var sharedPreferenceUtil: SharedPreferenceUtil
 
     val emptyUserError = MutableLiveData<Boolean>()

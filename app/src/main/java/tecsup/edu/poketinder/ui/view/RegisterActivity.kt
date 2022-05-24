@@ -3,10 +3,8 @@ package tecsup.edu.poketinder.ui.view
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import tecsup.edu.poketinder.data.model.User
 import tecsup.edu.poketinder.databinding.ActivityRegisterBinding
-import tecsup.edu.poketinder.data.SharedPreferenceUtil
-import tecsup.edu.poketinder.viewmodel.RegisterViewModel
+import tecsup.edu.poketinder.ui.viewmodel.RegisterViewModel
 
 class RegisterActivity: BaseActivity<ActivityRegisterBinding>(ActivityRegisterBinding::inflate) {
 

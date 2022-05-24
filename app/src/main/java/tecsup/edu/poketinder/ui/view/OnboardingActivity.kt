@@ -13,9 +13,9 @@ import tecsup.edu.poketinder.R
 import tecsup.edu.poketinder.ui.adapter.OnboardingAdapter
 import tecsup.edu.poketinder.databinding.ActivityOnboardingBinding
 import tecsup.edu.poketinder.util.Mock
-import tecsup.edu.poketinder.data.SharedPreferenceUtil
+import tecsup.edu.poketinder.util.SharedPreferenceUtil
 
-class OnboardingActivity: BaseActivity<ActivityOnboardingBinding>(ActivityOnboardingBinding::inflate) {
+class OnboardingActivity : BaseActivity<ActivityOnboardingBinding>(ActivityOnboardingBinding::inflate) {
 
     private val adapter = OnboardingAdapter(Mock().getOnboarding())
 
