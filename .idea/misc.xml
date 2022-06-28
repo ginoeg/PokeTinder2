@@ -6,6 +6,7 @@
         <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/layout/activity_onboarding.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/layout/activity_pokemon_detail.xml" value="0.253125" />
         <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/layout/activity_splash_pt.xml" value="0.25416666666666665" />
@@ -15,6 +16,7 @@
         <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/layout/item_back_button.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/layout/item_onboarding.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/layout/item_pokemon.xml" value="0.18984375" />
+        <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/layout/item_pokemon_saved.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/USER01/AndroidStudioProjects/PokeTinder/app/src/main/res/menu/bottom_nav_home_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
