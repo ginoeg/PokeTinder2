@@ -1,40 +1,30 @@
 package tecsup.edu.poketinder.data.model
 
 import com.google.gson.annotations.SerializedName
+import tecsup.edu.poketinder.domain.model.Abilities
+import tecsup.edu.poketinder.domain.model.PokemonDetail
+import tecsup.edu.poketinder.domain.model.Stats
+import tecsup.edu.poketinder.domain.model.Types
 
 data class PokemonDetailModel(
-    @SerializedName("count") val id: Int,
-    @SerializedName("count") val base_experience: Int,
-    @SerializedName("count") val height: Int,
-    @SerializedName("count") val weight: Int,
-    @SerializedName("count") val stats: List<Stats>,
-    @SerializedName("count") val types: List<Types>,
-    @SerializedName("count") val abilities: List<Abilities>
-)
-{
-    data class Stats(
-        val base_stat: Int,
-        val stat: Stat
-    ) {
-        data class Stat(
-            val name: String
-        )
-    }
+    @SerializedName("id") val id: Int,
+    @SerializedName("name") val name: String,
+    @SerializedName("base_experience") val base_experience: Int,
+    @SerializedName("height") val height: Int,
+    @SerializedName("weight") val weight: Int,
+    @SerializedName("stats") val stats: List<Stats>,
+    @SerializedName("types") val types: List<Types>,
+    @SerializedName("abilities") val abilities: List<Abilities>
+) {
 
-    data class Types(
-        val type: Type
-    ) {
-        data class Type(
-            val name: String
-        )
-    }
-
-    data class Abilities(
-        val ability: Ability
-    ) {
-        data class Ability(
-            val name: String
-        )
-    }
+    fun ToDomain() = PokemonDetail(
+        id = id,
+        base_experience = base_experience,
+        height = height,
+        weight = weight,
+        stats = stats,
+        types = types,
+        abilities = abilities
+    )
 }
 

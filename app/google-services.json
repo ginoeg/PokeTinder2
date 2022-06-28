@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "580402250090",
+    "project_id": "poketinder-7de12",
+    "storage_bucket": "poketinder-7de12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580402250090:android:efb4ec22213414f7be2513",
+        "android_client_info": {
+          "package_name": "tecsup.edu.poketinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580402250090-qcpfcged642grkl8a8n69p3jbd90lu57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlfSaF3WOITrGt8T99xw6acIDO-1wDDf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580402250090-qcpfcged642grkl8a8n69p3jbd90lu57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
